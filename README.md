@@ -39,7 +39,7 @@ Now start your DAW or rescan the folder. Here are some details on how to use the
 Read the manual. 
 
 ### Just How Geeky Are You?
-I'm also including all the validation files so you can validate the meter does what it says it does. 
+There is a also a folder of sound files and documentation that allows you to validate the meter. I didn't include it because it adds 12 MB to the download. You can get all of this from Martin's site.  
 
 ### For the Terminally Curious
 The standalone version doesn't look like a normal Macintosh application. The entire project (VST and Standalone) relies on the [JUCE framework](https://www.juce.com/). The program also uses the [Fastest Fourier Transform in the West (fftw)](http://www.fftw.org/) library.  
