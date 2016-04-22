@@ -1,5 +1,5 @@
 # KMeter-OSX
-A Macintosh OSX version of Martin Zuther's Excellent K-Meter. Both a standalone and VST plug in. This version supports stereo (not 5.1) only.
+A Macintosh OSX version of Martin Zuther's Excellent K-Meter. Includes a standalone application and two plug-in formats: VST and AU. This version supports stereo (not 5.1) only.
 
 If you don't know what a K-Meter is check out [Martin's site](http://www.mzuther.de/en/software/kmeter/) for all the details. For now, this repo just has the binaries of the Macintosh OSX version I created. At the time the current version of OSX was 10.11.4 (El Capitain). 
 
