@@ -38,7 +38,7 @@ Now start your DAW or rescan the folder. Here are some details on how to use the
 ### Want to Know More?
 Read the manual. 
 
-## Just How Geeky Are You?
+### Just How Geeky Are You?
 I'm also including all the validation files so you can validate the meter does what it says it does. 
 
 ### For the Terminally Curious
