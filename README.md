@@ -7,9 +7,9 @@ You should find two zip files here. Stanalone.zip and VST_Plugin.zip. I would su
 
 If you want to measure the loudness of your system audio, say from your Camtasia recording, then you'll need a tool like Soundflower than can make your output an input. Then instead of a microphone you just select soundflower as the input to the meter. 
 
-The VST version can be used with any hosting program. Typically a DAW like Reaper. Unzip the VST_Plugin folder and again you'll have two items:
-K-Meter.vst
-kmeter  (a folder)
+The VST version can be used with any hosting program. Typically a DAW like Reaper. Unzip the VST_Plugin folder and again you'll have two items:  
+* K-Meter.vst
+* kmeter  (a folder)
 
 Move both of these items to any folder that your host scans for VST plugins. The default location on a Mac starts at the user library. Open a finder window. Hold down the Option key and click the Go menu and select Library. (The user library on the Mac is hidden by default, that's why you hold downt he option key). Once that windos opens navigate to:
 Audio->Plug-ins->VST 
