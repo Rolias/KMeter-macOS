@@ -14,7 +14,7 @@ Download Zip the project and unzip it.  Then unzip K-Meter-Dist.zip and it will 
 Yep, the same folder is in there twice, wasteful but it lets you drag and drop things to two different locations. 
 
 ## Standalone
- The application and the kmeter folder have to remain together. Most people will put these two things in their Application folder but you don't have to. The _kmeter_ folder contains the skins for the application. Double-click the K-Meter application and it should launch. Use the _options_ button in the upper left corner and select _Audio Settings..._ to set your input source. Start with something simple like your microphone. Select the K-20 button, enable peaks and set your volume. 
+ The <span style="color:purple;">**application and the kmeter folder have to remain together.**</span> Most people will put these two things in their Application folder but you don't have to. The _kmeter_ folder contains the skins for the application. Double-click the K-Meter application and it should launch. Use the _options_ button in the upper left corner and select _Audio Settings..._ to set your input source. Start with something simple like your microphone. Select the K-20 button, enable peaks and set your volume. 
 
 If you want to measure the loudness output of your system audio, say from a tool like Camtasia, then you'll need a tool like Soundflower that can make your output into an input. Then instead of a microphone you just select Soundflower as the input to the meter. 
 
