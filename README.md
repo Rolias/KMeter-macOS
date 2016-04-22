@@ -3,7 +3,11 @@ A Macintosh OSX version of Martin Zuther's Excellent K-Meter. Both a standalone 
 
 I'm assuming you're here because you already know what a K-Meter is and why you need one for your audio work. If you don't check out Martin's site for all the details. For now, this repo just has the binaries of the Macintosh OSX version I created. At the time the current version of OSX was 10.11.4 (El Capitain). 
 
-You should find two zip files here. Stanalone.zip and VST_Plugin.zip. I would suggest starting with the standalone application. Unzip the folder and you will have an app called K-Meter and a folder named kmeter. These two files have to remain together. The folder contains the skins for the application. Double-click the K-Meter and it should launch. Use the _options_ button in the upper left corner and select _Audio Settings..." to set your input source. Start with something simple like your microphone. Select the K-20 button, enable peaks and set your volume. 
+You should find two zip files here.   
+* Standalone.zip 
+* VST_Plugin.zip  
+
+I would suggest starting with the standalone application. Unzip the folder and you will have an app called *K-Meter* and a folder named *kmeter*. These two files have to remain together. The folder contains the skins for the application. Double-click the K-Meter and it should launch. Use the _options_ button in the upper left corner and select _Audio Settings..." to set your input source. Start with something simple like your microphone. Select the K-20 button, enable peaks and set your volume. 
 
 If you want to measure the loudness of your system audio, say from your Camtasia recording, then you'll need a tool like Soundflower than can make your output an input. Then instead of a microphone you just select soundflower as the input to the meter. 
 
