@@ -3,7 +3,7 @@ A Macintosh OSX version of Martin Zuther's Excellent K-Meter. Both a standalone 
 
 If you don't know what a K-Meter is check out [Martin's site](http://www.mzuther.de/en/software/kmeter/) for all the details. For now, this repo just has the binaries of the Macintosh OSX version I created. At the time the current version of OSX was 10.11.4 (El Capitain). 
 
-Download the K-Meter-Dist.zip file. It wil contain:
+Download the Zip version It wil contain:
 * KMeter_manual.pdf
 * Standalone (folder)
   * K-Meter
