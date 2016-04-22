@@ -19,8 +19,8 @@ The VST version can be used with any hosting program. Typically a DAW like Reape
 
 Move both of these items to any folder that your host scans for VST plugins. The default location on a Mac starts at the user library. Open a finder window. Hold down the Option key and click the Go menu and select Library. _The user library on the Mac is hidden by default, that's why you hold downt he option key._ Once that window opens navigate to:  
 Audio->Plug-ins->VST   
-and put both items in that folder. Now start your DAW or rescan the folder. 
-Here are some details on how to use it with Reaper. 
-Click in the Fx box in the master track area of Reaper, Make sure "All Plugins" is selected at the top. In the filter area at the bottom type k-meter. You should now see 
+and put both items in that folder.  
+Now start your DAW or rescan the folder. Here are some details on how to use it with Reaper. 
+Click in the **Fx** box in the master track area of Reaper. In the resulting dialog make sure _All Plugins_ is selected at the top. In the filter area at the bottom type k-meter. You should now see 
 VST: K-Meter (Stereo) (Martin Zuther)
 Double Click that to add it to the Master Track FX panel. Double click it again in that panel to put it in a floating window. Position that floating window just to the left of your main Reaper window. Now save a new project template because you're going to want this meter to open every time you start a new project. Trust me. 
