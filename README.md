@@ -27,6 +27,7 @@ and drag the **K-Meter.vst** file there.
 
 ## Example Usage 
 Now start your DAW or rescan the folder. Here are some details on how to use the K-Meter with Reaper:   
+
 1. Click in the **Fx** box in the master track area of Reaper. 
 2. In the resulting dialog make sure _All Plugins_ is selected at the top. 
 3. In the filter area at the bottom type k-meter. 
