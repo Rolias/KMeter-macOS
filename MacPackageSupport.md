@@ -1,5 +1,5 @@
 #Support for Mac Packages
-Mac applications are actually glorified folders. It's possible to right click on the application and select "Show Package Contents". That allows me to navigate down the path to Contents/MacOS and put a kmeter folder right next to the executable file. Now users on the Mac can't screw up when installing. The just drag the stanadalone app to the Mac applications folder and the VST or AU to their respective folders and everything works. You'll note I check for ```__Apple__``` so this should have no effect on the Windows or Linux versions. 
+Mac applications are actually glorified folders. It's possible to right click on the application and select "Show Package Contents". That allows me to navigate down the path to Contents/MacOS and put a kmeter folder right next to the executable file. Now users on the Mac can't screw up when installing. They just drag the stanadalone app to the Mac applications folder and the VST or AU to their respective folders and everything works. You will note I check for ```__Apple__``` so this should have no effect on the Windows or Linux versions. 
 
 ## plugin_parameters.h
 ```c++
@@ -44,7 +44,7 @@ Delete the comment and replace the line of code with
 File skin_directory = getSkinDirectory();
 ```
 ##plugin_editor.cpp
-In the constructor you have the same comment and line of code so replace that one too. Since we're in another class the syntax is slightly different  
+In the constructor you have the same comment and line of code so replace that one too. Since we are in another class the syntax is slightly different  
 ```c++
   skinDirectory = KmeterPluginParameters::getSkinDirectory();
   ```
