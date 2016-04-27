@@ -1,30 +1,31 @@
 # KMeter-OSX
-A Macintosh OSX version of Martin Zuther's Excellent K-Meter. Includes a standalone application and two plug-in formats: VST and AU. This version supports stereo (not 5.1) only.
+A Macintosh OSX version of Martin Zuther's Excellent K-Meter. Includes a standalone application and two plug-in formats: VST and AU. This version supports stereo (not 5.1) only. If you want 5.1 let me know. These versions all include the needed skin files inside the packages so you no longer need a second kmeter folder. 
 
 If you don't know what a K-Meter is check out [Martin's site](http://www.mzuther.de/en/software/kmeter/) for all the details. For now, this repo just has the binaries of the Macintosh OSX version I created. At the time the current version of OSX was 10.11.4 (El Capitain). 
 
 Download Zip the project and unzip it.  Then unzip K-Meter-Dist.zip and it will contain:
 * KMeter_manual.pdf
-* Standalone (folder)
-  * K-Meter
-  * kmeter (folder)
-* VST_Plugin (folder)
-  * K-Meter.vst
-  * kmeter (folder)
-Yep, the same folder is in there twice, wasteful but it lets you drag and drop things to two different locations. 
+* K-Meter (the standalone version)
+* K-Meter.component (the AU version)
+* K-Meter.vst (the vst version duh)
+
 
 ## Standalone
- The <span style="color:purple;">**application and the kmeter folder have to remain together.**</span> Most people will put these two things in their Application folder but you don't have to. The _kmeter_ folder contains the skins for the application. Double-click the K-Meter application and it should launch. Use the _options_ button in the upper left corner and select _Audio Settings..._ to set your input source. Start with something simple like your microphone. Select the K-20 button, enable peaks and set your volume. 
+ Drag the file into your Applications folder. That's it.  Double-click the K-Meter application and it should launch. Use the _options_ button in the upper left corner and select _Audio Settings..._ to set your input source. Start with something simple like your microphone. Select the K-20 button, enable peaks and set your volume. 
 
-If you want to measure the loudness output of your system audio, say from a tool like Camtasia, then you'll need a tool like Soundflower that can make your output into an input. Then instead of a microphone you just select Soundflower as the input to the meter. 
+If you want to measure the loudness output of your system audio, say from a tool like Camtasia, then you'll need a tool like Soundflower that can make your output into an input. Then instead of a microphone you just select Soundflower as the input to the meter. **Warning** after experimenting with Soundflower and Loopback, they are corrupting my system audio in some weird way. The only way I could recover was from a backup. 
+
+## AU Plugin
+AU (Audio Units) are the native format for the Mac. The AU version can be used with any hosting program that supports the AU format, e.g. a DAW like [Reaper](http://www.reaper.fm/). Take the *K-Meter.component* and  move it to any folder that your host scans for AU plugins. The default location on a Mac _(that all hosts should scan by default)_ starts at the user library (i.e. ~/Library). Open a finder window. Hold down the **Option** key and click the **Go** menu and select **Library**. _The user library on the Mac is hidden by default, that's why you hold down the **Option** key._ Once that window opens navigate to:  
+**Audio->Plug-ins->Components**   
+and drag the **K-Meter.component** file there.  
 
 ## VST Plug-in
-The VST version can be used with any hosting program that supports the VST format, e.g. a DAW like [Reaper](http://www.reaper.fm/). Take the two items:  
-* K-Meter.vst
-* kmeter  (a folder)
-and  move both of them to any folder that your host scans for VST plugins. The default location on a Mac _(that all hosts should scan by default)_ starts at the user library (i.e. ~/Library). Open a finder window. Hold down the Option key and click the Go menu and select Library. _The user library on the Mac is hidden by default, that's why you hold downt he option key._ Once that window opens navigate to:  
+The VST version can be used with any hosting program that supports the VST format, e.g. a DAW like [Reaper](http://www.reaper.fm/). Take the *K-Meter.vst* and move it to any folder that your host scans for VST plugins. The default location on a Mac _(that all hosts should scan by default)_ starts at the user library (i.e. ~/Library). Open a finder window. Hold down the **Option** key and click the **Go** menu and select **Library**. _The user library on the Mac is hidden by default, that's why you hold down the **Option** key._ Once that window opens navigate to:  
 **Audio->Plug-ins->VST**   
-and put both items in that folder.  
+and drag the **K-Meter.vst** file there.  
+
+## Example Usage 
 Now start your DAW or rescan the folder. Here are some details on how to use the K-Meter with Reaper:   
 1. Click in the **Fx** box in the master track area of Reaper. 
 2. In the resulting dialog make sure _All Plugins_ is selected at the top. 
@@ -36,7 +37,7 @@ Now start your DAW or rescan the folder. Here are some details on how to use the
 8. Now save a new project template because you're going to want this meter to open every time you start a new project. Trust me. 
 
 ### Want to Know More?
-Read the manual. 
+Read the K-Meter.pdf manual. 
 
 ### Just How Geeky Are You?
 There is a also a folder of sound files and documentation that allows you to validate the meter. I didn't include it because it adds 12 MB to the download. You can get all of this from Martin's site.  
