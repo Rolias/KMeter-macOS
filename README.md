@@ -12,7 +12,7 @@ Download Zip the project and unzip it.  Then unzip K-Meter-Dist.zip and it will 
 
 
 ## Standalone
- Drag the file into your Applications folder. That's it.  Double-click the K-Meter application and it should launch. Use the _options_ button in the upper left corner and select _Audio Settings..._ to set your input source. Start with something simple like your microphone. Select the K-20 button, enable peaks and set your volume. 
+ ![Standalone Image](https://cloud.githubusercontent.com/assets/143885/14838737/3652e3d0-0bd9-11e6-9321-7356abcb4ba6.png) Drag the file into your Applications folder. That's it.  Double-click the K-Meter application and it should launch. Use the _options_ button in the upper left corner and select _Audio Settings..._ to set your input source. Start with something simple like your microphone. Select the K-20 button, enable peaks and set your volume. 
 
 If you want to measure the loudness output of your system audio, say from a tool like Camtasia, then you'll need a tool like Soundflower that can make your output into an input. Then instead of a microphone you just select Soundflower as the input to the meter. **Warning** after experimenting with Soundflower and Loopback, they are corrupting my system audio in some weird way. The only way I could recover was from a backup. 
 
