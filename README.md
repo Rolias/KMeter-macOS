@@ -31,7 +31,8 @@ Now start your DAW or rescan the folder. Here are some details on how to use the
 1. Click in the **Fx** box in the master track area of Reaper. 
 2. In the resulting dialog make sure _All Plugins_ is selected at the top. 
 3. In the filter area at the bottom type k-meter. 
-4. You should now see VST: K-Meter (Stereo) (Martin Zuther)
+4. You should now see VST: K-Meter (Stereo) (Martin Zuther) or
+5. AU: Martin Zuther: K-Meter (or possibly both if you installed both versions)
 5. Double Click that to add it to the Master Track FX panel. 
 6. Double click it again in that panel to put it in a floating window. 
 7. Position that floating window just to the left of your main Reaper window. 
