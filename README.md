@@ -48,5 +48,5 @@ There is a also a folder of sound files and documentation that allows you to val
 ### For the Terminally Curious
 The standalone version doesn't look like a normal Macintosh application. The entire project (VST and Standalone) relies on the [JUCE framework](https://www.juce.com/). The program also uses the [Fastest Fourier Transform in the West (fftw)](http://www.fftw.org/) library.  
 
-Licensing
+####Licensing
 The software is distributed under the GNU GENERAL PUBLIC LICENSE (see the LICENSE file). The Mac icons (see the K-Meter.icns file) is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/). 
