@@ -2,7 +2,7 @@
 ![KMeter Mac Icon](https://cloud.githubusercontent.com/assets/143885/14838710/d68dd266-0bd8-11e6-9944-1c03d2b11185.png)
 A Macintosh OSX version of Martin Zuther's Excellent K-Meter. Includes a standalone application and two plug-in formats: VST and AU. This version supports stereo (not 5.1) only. If you want 5.1 let me know. These versions all include the needed skin files inside the packages so you no longer need a second kmeter folder. 
 
-If you don't know what a K-Meter is check out [Martin's site](http://www.mzuther.de/en/software/kmeter/) for all the details. For now, this repo just has the binaries of the Macintosh OSX version I created. At the time the current version of OSX was 10.11.4 (El Capitain).   I set XCode to delpoy the VST and AU versions for 10.4 (or later) and the standalone version of 10.5 (or later). 
+If you don't know what a K-Meter is check out [Martin's site](http://www.mzuther.de/en/software/kmeter/) for all the details. For now, this repo just has the binaries of the Macintosh OSX version I created. At the time I built this the current version of OSX was 10.11.4 (El Capitain). See below if you use an older version of Mac OSX
 
 Download Zip the project and unzip it.  Then unzip K-Meter-Dist.zip and it will contain:
 * KMeter_manual.pdf
@@ -38,6 +38,9 @@ Now start your DAW or rescan the folder. Here are some details on how to use the
 6. Double click it again in that panel to put it in a floating window. 
 7. Position that floating window just to the left of your main Reaper window. 
 8. Now save a new project template because you're going to want this meter to open every time you start a new project. Trust me. 
+
+### Older versions of OSX
+In the latest version I set XCode to delpoy the VST and AU versions for 10.4 (or later) and the standalone version of 10.5 (or later). The problem with this is I don't actually have SDKs for 10.4 and 10.5. If I did and I set the base SDK I assume I would get compiler or linker errors if I tried to use an API from a more recent OS release. It's not just the code in the meter that is of concern if the FFT library or the JUCE library uses anything later than the OS you are running on, the meter simply won't work. I don't believe there is anything I can do about that. If you have any luck or trouble running the standalone or plug-in versions on pre OSX10.11 let me know.
 
 ### Want to Know More?
 Read the K-Meter.pdf manual. 
