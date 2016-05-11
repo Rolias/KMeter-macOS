@@ -2,7 +2,7 @@
 ![KMeter Mac Icon](https://cloud.githubusercontent.com/assets/143885/14838710/d68dd266-0bd8-11e6-9944-1c03d2b11185.png)
 A Macintosh OSX version of Martin Zuther's Excellent K-Meter. Includes a standalone application and two plug-in formats: VST and AU. This version supports stereo (not 5.1) only. If you want 5.1 let me know. These versions all include the needed skin files inside the packages so you no longer need a second kmeter folder. 
 
-If you don't know what a K-Meter is check out [Martin's site](http://www.mzuther.de/en/software/kmeter/) for all the details. For now, this repo just has the binaries of the Macintosh OSX version I created. At the time the current version of OSX was 10.11.4 (El Capitain). 
+If you don't know what a K-Meter is check out [Martin's site](http://www.mzuther.de/en/software/kmeter/) for all the details. For now, this repo just has the binaries of the Macintosh OSX version I created. At the time the current version of OSX was 10.11.4 (El Capitain).   I set XCode to delpoy the VST and AU versions for 10.4 (or later) and the standalone version of 10.5 (or later). 
 
 Download Zip the project and unzip it.  Then unzip K-Meter-Dist.zip and it will contain:
 * KMeter_manual.pdf
@@ -12,7 +12,7 @@ Download Zip the project and unzip it.  Then unzip K-Meter-Dist.zip and it will 
 
 
 ## Standalone
- ![Standalone Image](https://cloud.githubusercontent.com/assets/143885/14838737/3652e3d0-0bd9-11e6-9321-7356abcb4ba6.png) Drag the file into your Applications folder. That's it.  Double-click the K-Meter application and it should launch. Use the _options_ button in the upper left corner and select _Audio Settings..._ to set your input source. Start with something simple like your microphone. Select the K-20 button, enable peaks and set your volume. 
+ ![Standalone Image](https://cloud.githubusercontent.com/assets/143885/15167394/6ac8d368-16dd-11e6-9bb8-99bfbe257053.png) Drag the file into your Applications folder. That's it.  Double-click the K-Meter application and it should launch. Use the _options_ button in the upper left corner and select _Audio Settings..._ to set your input source. Start with something simple like your microphone. Select the K-20 button, enable peaks and set your volume. 
 
 If you want to measure the loudness output of your system audio, say from a tool like Camtasia, then you'll need a tool like Soundflower that can make your output into an input. Then instead of a microphone you just select Soundflower as the input to the meter. **Warning** after experimenting with Soundflower and Loopback, they are corrupting my system audio in some weird way. The only way I could recover was from a backup. 
 
