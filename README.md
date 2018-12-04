@@ -1,8 +1,8 @@
-# KMeter-OSX
+# KMeter-macOS
 ![KMeter Mac Icon](https://cloud.githubusercontent.com/assets/143885/14838710/d68dd266-0bd8-11e6-9944-1c03d2b11185.png)
-A Macintosh OSX version of Martin Zuther's Excellent K-Meter. Includes a standalone application and two plug-in formats: VST and AU. This version supports stereo (not 5.1) only. If you want 5.1 let me know. These versions all include the needed skin files inside the packages so you no longer need a second kmeter folder. 
+A macOS version of Martin Zuther's Excellent K-Meter. Includes a standalone application and two plug-in formats: VST and AU. This version supports stereo (not 5.1) only. If you want 5.1 let me know. These versions all include the needed skin files inside the packages so you no longer need a second kmeter folder. 
 
-If you don't know what a K-Meter is check out [Martin's site](http://www.mzuther.de/en/software/kmeter/) for all the details. For now, this repo just has the binaries of the Macintosh OSX version I created. At the time I built this the current version of OSX was 10.11.4 (El Capitain). See below if you use an older version of Mac OSX
+If you don't know what a K-Meter is check out [Martin's site](http://www.mzuther.de/en/software/kmeter/) for all the details. For now, this repo just has the binaries of the Macintosh OSX version I created. At the time I built this the macOS version 10.11.4 (El Capitain). I have been using it without issue on High Sierra.See below if you use an older version of macOS
 
 Download Zip the project and unzip it.  Then unzip K-Meter-Dist.zip and it will contain:
 * KMeter_manual.pdf
